@@ -1,0 +1,24 @@
+# Data files (too large for git)
+data/raw/
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+venv/
+
+# macOS
+.DS_Store
+
+# local data
+data/raw/
+*.xlsx
