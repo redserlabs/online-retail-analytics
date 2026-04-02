@@ -22,3 +22,7 @@ venv/
 # local data
 data/raw/
 *.xlsx
+
+# generated files
+data/cleaned/*.csv
+outputs/*.csv
