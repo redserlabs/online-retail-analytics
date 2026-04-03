@@ -1,28 +1,21 @@
-# Data files (too large for git)
-data/raw/
-*.xlsx
-*.xls
+# macOS
+.DS_Store
 
 # Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
+.venv/
 venv/
+.env
 
-# macOS
-.DS_Store
+# Local raw dataset
+01_data/raw/*
+!01_data/raw/.gitkeep
+!01_data/raw/README.md
 
-# local data
-data/raw/
-*.xlsx
+# Local cleaned exports
+01_data/cleaned/*.csv
 
-# generated files
-data/cleaned/*.csv
-outputs/*.csv
+# Local generated outputs
+05_outputs/*.csv
