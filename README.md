@@ -60,6 +60,9 @@ The goal of this project is to identify the main revenue drivers, understand cus
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 online-retail-analytics/
 ├── README.md
 ├── requirements.txt
